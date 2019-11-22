@@ -6,13 +6,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 75%;
+  width: 72%;
 
   img {
-    height: 250px;
-    width: 250px;
+    height: 280px;
+    width: 280px;
     border-radius: 50%;
-    border: 3px solid #4561738a;
     margin-bottom: 15px;
   }
 
@@ -20,37 +19,29 @@
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
     font-size: 1.1em;
-    color: white;
+    color: #456173;
   }
 }
 
 .AboutMeFlex {
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 0px;
-
 }
 
 .AboutMeParagraph {
   height: auto;
-  background: #456173cc;
+  border: 2px solid #456173cc;
   padding: 5px 30px 5px 30px;
-  border-radius: 10px;
   margin-left: 30px;
 }
 
 .AboutMeHeader {
-  text-align: center;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
-  color: white;
-  width: 150px;
-  margin-left: 225px;
-  margin-top: 10px;
-  background-color: #456173;
-  padding: 10px 10px;
-  border-radius: 10px;
+  color: #a6ed8e;
+  font-size: 4em;
+  margin-left: 210px;
 }

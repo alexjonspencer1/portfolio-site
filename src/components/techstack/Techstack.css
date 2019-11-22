@@ -1,34 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 .FlexSkillsSection {
-  margin-top: 80px;
   display: flex;
   align-content: center;
   justify-content: center;
   margin-bottom: 80px;
 }
 
-.WhatIKnowHeader {
-
-  h1 {
-    transform: rotate(-90deg);
-    color: white;
-    font-size: 2.5em;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-  }
-
-  background-color: #456173;
-  border-radius: 10px;
-}
-
 .TechstackUL {
 
-  width: 60vw;
+  width: 72vw;
   display: grid;
   grid-gap: 15px;
   padding: 10px 10px 0px 10px;
-  grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   list-style: none;
 
   li {
@@ -42,19 +27,18 @@
     h2 {
       margin: 0px 0px 8px 0px;
       line-height: 1em;
-      color: #1b3c59;
-      background-color: #a6ed8e;
+      color: white;
+      background-color: #456173cc;
       padding: 10px 10px;
       margin: 0px;
       font-size: 1.1em;
-      border-radius: 5px;
     }
 
     justify-content: center;
     font-family: 'Oswald', sans-serif;
     margin: 5px 5px 5px 5px;
     transition: 50ms ease-in-out;
-    border-radius: 5px;
+    border: 2px solid #456173cc;
 
   }
 
@@ -72,4 +56,14 @@
 
 .Overflow {
   margin-right: 40px;
+}
+
+.TechStackHeader {
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  text-transform: uppercase;
+  color: #a6ed8e;
+  font-size: 4em;
+  margin-left: 210px;
 }
