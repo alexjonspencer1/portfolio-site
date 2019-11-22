@@ -4,7 +4,9 @@ import styles from './Techstack.css';
 const Techstack = () => {
   return (
     <section className={styles.FlexSkillsSection}>
-      <h1 className={styles.WhatIKnowHeader}>What I know</h1>
+      <div className={styles.WhatIKnowHeader}>
+        <h1>What I know</h1>
+      </div>
       <ul className={styles.TechstackUL}>
         <li>
           <h2>Languages</h2>

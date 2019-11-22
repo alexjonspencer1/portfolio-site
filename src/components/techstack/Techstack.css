@@ -1,29 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 .FlexSkillsSection {
-  
   margin-top: 80px;
   display: flex;
-  align-items: center;
+  align-content: center;
   justify-content: center;
   margin-bottom: 80px;
 }
 
 .WhatIKnowHeader {
-  padding: 5px 25px 5px 25px;
-  transform: rotate(-90deg);
+
+  h1 {
+    transform: rotate(-90deg);
+    color: white;
+    font-size: 2.5em;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+  }
+
   background-color: #456173;
-  color: white;
-  margin: 0px;
-  font-size: 2.5em;
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
   border-radius: 10px;
 }
 
 .TechstackUL {
 
-  margin-left: -50px;
   width: 60vw;
   display: grid;
   grid-gap: 15px;

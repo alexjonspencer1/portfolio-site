@@ -8,7 +8,6 @@ import styles from './AboutMe.css';
 const AboutMe = () => {
   return (
     <>
-      <h1 className={styles.AboutMeHeader}>More About Me</h1>
       <div className={styles.AboutMe}>
         <div className={styles.AboutMeFlex}>
           <img src="src/assets/alex-pic.png" />
