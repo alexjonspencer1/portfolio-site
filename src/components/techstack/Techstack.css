@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.FlexSkillsSection {
+  
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.WhatIKnowHeader {
+  padding: 5px 25px 5px 25px;
+  transform: rotate(-90deg);
+  background-color: #456173;
+  color: white;
+  margin: 0px;
+  font-size: 2.5em;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.TechstackUL {
+
+  margin-left: -50px;
+  width: 60vw;
+  display: grid;
+  grid-gap: 15px;
+  padding: 10px 10px 0px 10px;
+  grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+  list-style: none;
+
+  li {
+
+    p{
+      padding: 3px 3px;
+      margin: 0px 0px 0px 10px;
+      color: #456173;
+    }
+
+    h2 {
+      margin: 0px 0px 8px 0px;
+      line-height: 1em;
+      color: #1b3c59;
+      background-color: #a6ed8e;
+      padding: 10px 10px;
+      margin: 0px;
+      font-size: 1.1em;
+      border-radius: 5px;
+    }
+
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    margin: 5px 5px 5px 5px;
+    transition: 50ms ease-in-out;
+    border-radius: 5px;
+
+  }
+
+  li:hover {
+    transform: translate3d(-2px, -2px, 0);
+    cursor: pointer;
+  }
+
+}
+
+.Flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Overflow {
+  margin-right: 40px;
+}

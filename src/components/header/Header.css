@@ -2,6 +2,7 @@
 
 .Header {
 
+  margin-bottom: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -15,7 +16,7 @@
   }
 
   h2 {
-    margin: 0px 0px 15px 0px;
+    margin: -5px 0px 40px 0px;
     font-family: 'Oswald', sans-serif;    
     color: #a6ed8e;
     animation-name: h2;
@@ -29,9 +30,40 @@
 }
 
 .flexLogos {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
 
-  img {
-    height: 35px;
-    margin-left: 10px;
+  a {
+    color: #456173;
+    font-size: 2em;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  a:hover {
+    color: #a6ed8e;
+  }
+
+  .phoneImage {
+    p {
+      display: inline;
+      font-size: .63em;
+      margin: 0px;
+    }
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #456173;
+    font-size: 2em;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-family: 'Oswald', sans-serif;
+  }
+  .phoneImage:hover {
+    color: #a6ed8e;
+    p {
+      color: #456173;
+    }
   }
 }
