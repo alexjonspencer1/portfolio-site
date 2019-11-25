@@ -2,23 +2,23 @@
 
 .Header {
 
-  margin-bottom: 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #456173;
+  margin-bottom: 50px;
 
   h1 {
+    margin: 15px 0px 0px 0px;
+    color: #f2f2f0;
     font-family: 'Oswald', sans-serif;
     font-size: 5em;
-    color: #f2f2f0;
-    margin: 15px 0px 0px 0px;
   }
 
   h2 {
     margin: -5px 0px 40px 0px;
-    font-family: 'Oswald', sans-serif;    
     color: #a6ed8e;
+    font-family: 'Oswald', sans-serif;    
     animation-name: h2;
     animation-duration: 1s;
   }
@@ -30,15 +30,15 @@
 }
 
 .flexLogos {
-  background-color: white;
+
   padding: 15px;
   border-radius: 10px;
+  background-color: white;
 
   a {
-    color: #456173;
     font-size: 2em;
-    margin-left: 4px;
-    margin-right: 4px;
+    margin: 0px 4px 0px 4px;
+    color: #456173;
   }
   
   a:hover {
@@ -46,23 +46,26 @@
   }
 
   .phoneImage {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 4px 0px 4px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    color: #456173;
+
     p {
       display: inline;
-      font-size: .63em;
       margin: 0px;
+      font-size: .63em;
     }
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #456173;
-    font-size: 2em;
-    margin-left: 4px;
-    margin-right: 4px;
-    font-family: 'Oswald', sans-serif;
   }
+
   .phoneImage:hover {
+
     color: #a6ed8e;
+
     p {
       color: #456173;
     }

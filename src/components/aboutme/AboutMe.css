@@ -2,17 +2,17 @@
 
 .AboutMe {
 
-  margin: 0px auto;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 71vw;
+  margin: 0px auto;
 
   img {
+    margin-bottom: 15px;
     height: 280px;
     width: 280px;
     border-radius: 50%;
-    margin-bottom: 15px;
   }
 
   p {
@@ -25,9 +25,9 @@
 
 .AboutMeFlex {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   margin: 0px;
 }
 
@@ -39,9 +39,9 @@
 }
 
 .AboutMeHeader {
+  margin-left: 210px;
   font-family: 'Oswald', sans-serif;
+  font-size: 4em;
   text-transform: uppercase;
   color: #a6ed8e;
-  font-size: 4em;
-  margin-left: 210px;
 }

@@ -11,15 +11,20 @@ const ContactMe = () => {
       <h1 className={styles.ContactMeHeader}>Contact Me //</h1>
       <div className={styles.ContactDiv}>
         <h2>Let's get in touch!</h2>
-        <a target="blank" href="mailto:alexander.j.spencer@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a> <p>alexander.j.spencer@gmail.com</p>
-        <br></br>
-        <FontAwesomeIcon className={styles.PhoneIcon} icon={faPhoneSquare} /> <p> Phone: 971-322-4233</p>
-        <br></br>
-        <a target="blank" href="src/assets/AlexSpencerResume.pdf"><FontAwesomeIcon icon={faFile} /></a> <p className={styles.DocumentText}>Check out my resume!</p>
-        <br></br>
-        <a className={styles.SocialIcon} target="blank" href="https://github.com/alexjonspencer1"><FontAwesomeIcon icon={faGithub} /></a>
-        <a className={styles.SocialIcon} target="blank" href="https://www.linkedin.com/in/alexjonspencer/"><FontAwesomeIcon icon={faLinkedin} /></a>
-        <a className={styles.SocialIcon} target="blank" href="https://twitter.com/alexjonspencer"><FontAwesomeIcon icon={faTwitter} /></a>
+        <div className={styles.ContactDivFlex}>
+          <div>
+            <a target="blank" href="mailto:alexander.j.spencer@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a> <p>alexander.j.spencer@gmail.com</p>
+            <br></br>
+            <FontAwesomeIcon className={styles.PhoneIcon} icon={faPhoneSquare} /> <p> Phone: 971-322-4233</p>
+            <br></br>
+            <a target="blank" href="src/assets/AlexSpencerResume.pdf"><FontAwesomeIcon icon={faFile} /></a> <p className={styles.DocumentText}>Check out my resume!</p>
+          </div>
+          <div className={styles.SocialIconsContainer}>
+            <a className={styles.SocialIcon} target="blank" href="https://github.com/alexjonspencer1"><FontAwesomeIcon icon={faGithub} /></a>
+            <a className={styles.SocialIcon} target="blank" href="https://www.linkedin.com/in/alexjonspencer/"><FontAwesomeIcon icon={faLinkedin} /></a>
+            <a className={styles.SocialIcon} target="blank" href="https://twitter.com/alexjonspencer"><FontAwesomeIcon icon={faTwitter} /></a>
+          </div>
+        </div>
       </div>
     </>
   );

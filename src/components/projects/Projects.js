@@ -8,10 +8,11 @@ const Projects = () => {
     <>
       <h1 className={styles.ProjectsHeader}>My Work //</h1>
       <div className={styles.ProjectHeaderInformation}>
-        <h2>@HEARTBOTBB //</h2>
+        <h2>@HEARTBOTBB</h2>
         <div className={styles.ProjectHeaderFlex}>
-          <a target="blank" href="https://heartbotbb.herokuapp.com/"><p>Deployed Site :</p></a>
-          <a target="blank" href="https://github.com/Healing-HeartBot/healing-heart-bot"><p>: GitHub Repository</p></a>
+          <a target="blank" href="https://heartbotbb.herokuapp.com/"><p>Deployed Site</p></a>
+          <p className={styles.ProjectHeaderFlexDots}>::</p>
+          <a target="blank" href="https://github.com/Healing-HeartBot/healing-heart-bot"><p>GitHub Repository</p></a>
         </div>
       </div>
       <div className={styles.ProjectDetails}>
@@ -30,10 +31,11 @@ const Projects = () => {
       </div>
 
       <div className={styles.ProjectHeaderInformation}>
-        <h2>TONE CHECK //</h2>
+        <h2>TONE CHECK</h2>
         <div className={styles.ProjectHeaderFlex}>
-          <a target="blank" href="http://tone-check.herokuapp.com/"><p>Deployed Site :</p></a>
-          <a target="blank" href="https://github.com/mood-mangoes/mood-mangoes.github.io"><p>: GitHub Repository</p></a>
+          <a target="blank" href="http://tone-check.herokuapp.com/"><p>Deployed Site</p></a>
+          <p className={styles.ProjectHeaderFlexDots}>::</p>
+          <a target="blank" href="https://github.com/mood-mangoes/mood-mangoes.github.io"><p>GitHub Repository</p></a>
         </div>
       </div>
       <div className={styles.ProjectDetails}>
@@ -53,10 +55,11 @@ const Projects = () => {
       </div>
 
       <div className={styles.ProjectHeaderInformation}>
-        <h2>DEJA BREW //</h2>
+        <h2>DEJA BREW</h2>
         <div className={styles.ProjectHeaderFlex}>
-          <a target="blank" href="https://team-caffeine.github.io/"><p>Deployed Site :</p></a>
-          <a target="blank" href="https://github.com/team-caffeine/team-caffeine.github.io"><p>: GitHub Repository</p></a>
+          <a target="blank" href="https://team-caffeine.github.io/"><p>Deployed Site</p></a>
+          <p className={styles.ProjectHeaderFlexDots}>::</p>
+          <a target="blank" href="https://github.com/team-caffeine/team-caffeine.github.io"><p>GitHub Repository</p></a>
         </div>
       </div>
       <div className={styles.ProjectDetails}>

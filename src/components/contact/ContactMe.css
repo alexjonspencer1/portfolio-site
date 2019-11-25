@@ -2,35 +2,33 @@
 
 .ContactMeHeader {
 
+  margin: 50px 0px 20px 210px;
   font-family: 'Oswald', sans-serif;
-  margin-bottom: 20px;
-  margin-top: 50px;
+  font-size: 4em;
   text-transform: uppercase;
   color: #a6ed8e;
-  font-size: 4em;
-  margin-left: 210px;
 
 }
 
 .ContactDiv {
 
-  background-color: #456173;
-  padding: 20px;
-  color: white;
-  font-family: 'Oswald', sans-serif;
-  width: 68vw;
   margin: 0 auto;
-  border-radius: 10px;
   margin-top: 20px;
   margin-bottom: 80px;
+  padding: 40px;
+  width: 65vw;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  background-color: #456173;
+  border-radius: 10px;
 
   .DocumentText {
-    margin-left: 9px;
+    margin-left: 14px;
   }
 
   .SocialIcon {
-    font-size: 50px;
-    margin: 5px 5px;
+    font-size: 4em;
+    margin: 0px 5px 0px 5px;
   }
 
   .SocialIcon:hover {
@@ -47,17 +45,32 @@
   }
 
   p {
-    margin: 0px 0px 0px 5px;
+    margin: 0px 0px 0px 10px;
     display: inline;
+    font-size: 1.5em;
   }
 
   h2 {
-    margin: 0px 0px 10px 0px;
-    text-transform: uppercase;
+    margin: 0px 0px 10px 50px;
+    font-size: 2em;
     color: #a6ed8e;
+    text-transform: uppercase;
+  }
+
+  div {
+    margin-left: 40px;
   }
 }
 .PhoneIcon {
   font-size: 1.6em;
+}
+
+.ContactDivFlex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.SocialIconsContainer {
+  margin-right: 100px;
 }
 
