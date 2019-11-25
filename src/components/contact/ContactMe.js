@@ -10,7 +10,7 @@ const ContactMe = () => {
     <>
       <h1 className={styles.ContactMeHeader}>Contact Me //</h1>
       <div className={styles.ContactDiv}>
-        <h2>I'd love to get in contact!</h2>
+        <h2>Let's get in touch!</h2>
         <a target="blank" href="mailto:alexander.j.spencer@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a> <p>alexander.j.spencer@gmail.com</p>
         <br></br>
         <FontAwesomeIcon className={styles.PhoneIcon} icon={faPhoneSquare} /> <p> Phone: 971-322-4233</p>

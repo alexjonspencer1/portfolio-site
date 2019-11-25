@@ -4,6 +4,7 @@ import './App.css';
 import Techstack from './techstack/Techstack';
 import AboutMe from './aboutme/AboutMe';
 import ContactMe from './contact/ContactMe';
+import Projects from './projects/Projects';
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Header />
       <AboutMe />
       <Techstack />
+      <Projects />
       <ContactMe />
     </>
   );
