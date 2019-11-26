@@ -14,8 +14,8 @@ const AboutMe = () => {
         </div>
         <div className={styles.AboutMeParagraph}>
           <p>
-            My name is Alex Spencer, and I'm a <span>Full Stack Software Developer</span>. I come to software development after six years 
-            in institutional consulting and asset management. I am inspired to build robust, sleek, and functional applications 
+            My name is Alex Spencer and I'm a <span>Full Stack Software Developer</span>. I come to software development after six years 
+            in institutional investment <span>consulting and asset management</span>. I am inspired to build robust, sleek, and functional applications 
             that solve real world problems, or just to improve my own day-to-day efficiency <FontAwesomeIcon icon={faSmile} />.
           </p>
           <p>
@@ -25,7 +25,7 @@ const AboutMe = () => {
           <p>
             In my spare time, I love to adventure with my partner and our dog, Timber. We love traveling to the Oregon Coast, 
             central Oregon, and the Gorge! I participate in the sport of triathlon, having completed 5 Ironman 70.3 and 1 Ironman 
-            140.6 races. I'm also an avid Portland Timbers #RCTID and Arsenal FC fan #COYG.
+            140.6 races. I'm also an avid Portland Timbers #RCTID and Arsenal FC #COYG fan.
           </p>
           <p>
             Thanks for visiting my site!
