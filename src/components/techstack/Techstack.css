@@ -61,7 +61,31 @@
   margin-bottom: 20px;
   margin-top: 50px;
   text-transform: uppercase;
-  color: #a6ed8e;
+  color: #BE5504;
   font-size: 4em;
   margin-left: 210px;
+}
+
+@media only screen and (min-width: 1500px) {
+  .TechstackUL {
+    width: 72vw;
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+  .TechstackUL {
+    width: 75vw;
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  .TechstackUL {
+    width: 76vw;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .TechstackUL {
+    width: 78vw;
+  }
 }

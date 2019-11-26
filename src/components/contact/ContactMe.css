@@ -6,7 +6,7 @@
   font-family: 'Oswald', sans-serif;
   font-size: 4em;
   text-transform: uppercase;
-  color: #a6ed8e;
+  color: #BE5504;
 
 }
 
@@ -32,7 +32,7 @@
   }
 
   .SocialIcon:hover {
-    color: #a6ed8e;
+    color: #BE5504;
   }
 
   a {
@@ -41,7 +41,7 @@
   }
 
   a:hover {
-    color: #a6ed8e;
+    color: #BE5504;
   }
 
   p {
@@ -53,7 +53,7 @@
   h2 {
     margin: 0px 0px 10px 50px;
     font-size: 2em;
-    color: #a6ed8e;
+    color: white;
     text-transform: uppercase;
   }
 
@@ -74,3 +74,26 @@
   margin-right: 100px;
 }
 
+@media only screen and (min-width: 1500px) {
+  .ContactDiv {
+    width: 67vw;
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+  .ContactDiv {
+    width: 70vw;
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  .ContactDiv {
+    width: 71vw;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .ContactDiv {
+    width: 73vw;
+  }
+}

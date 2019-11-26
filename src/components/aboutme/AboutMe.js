@@ -14,12 +14,12 @@ const AboutMe = () => {
         </div>
         <div className={styles.AboutMeParagraph}>
           <p>
-            My name is Alex Spencer, and I'm a Full Stack Software Developer. I come to software development after six years 
+            My name is Alex Spencer, and I'm a <span>Full Stack Software Developer</span>. I come to software development after six years 
             in institutional consulting and asset management. I am inspired to build robust, sleek, and functional applications 
             that solve real world problems, or just to improve my own day-to-day efficiency <FontAwesomeIcon icon={faSmile} />.
           </p>
           <p>
-            I am proficient in the MERN (MongoDB, Express, React, Node.js) technology stack, and have built several applications 
+            I am proficient in the <span>MERN (MongoDB, Express, React, Node.js) technology stack</span>, and have built several applications 
             leveraging this tech stack, as well as a large variety of other tools.
           </p>
           <p>
