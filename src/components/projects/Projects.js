@@ -1,6 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
+import heartbot from '../../assets/heartbot-bb.jpg';
+import tonecheck from '../../assets/tone-check.jpg';
+import dejabrew from '../../assets/deja-brew.jpg';
 import styles from './Projects.css';
 
 const Projects = () => {
@@ -16,7 +19,7 @@ const Projects = () => {
         </div>
       </div>
       <div className={styles.ProjectDetails}>
-        <img src="https://github.com/alexjonspencer1/portfolio-site/blob/master/src/assets/heartbot-bb.jpg?raw=true" />
+        <img src={heartbot} />
         <div>
           <h2>Tech Stack</h2>
           <h3> <FontAwesomeIcon icon={faAngleDoubleRight} /> Node.js, Express, MongoDB, mongoose</h3>
@@ -39,7 +42,7 @@ const Projects = () => {
         </div>
       </div>
       <div className={styles.ProjectDetails}>
-        <img src="https://github.com/alexjonspencer1/portfolio-site/blob/master/src/assets/tone-check.jpg?raw=true" />
+        <img src={tonecheck} />
         <div>
           <h2>Tech Stack</h2>
           <h3> <FontAwesomeIcon icon={faAngleDoubleRight} /> Node.js, Express, PostgreSQL</h3>
@@ -63,7 +66,7 @@ const Projects = () => {
         </div>
       </div>
       <div className={styles.ProjectDetails}>
-        <img src="https://github.com/alexjonspencer1/portfolio-site/blob/master/src/assets/deja-brew.jpg?raw=true" />
+        <img src={dejabrew} />
         <div>
           <h2>Tech Stack</h2>
           <h3> <FontAwesomeIcon icon={faAngleDoubleRight} /> JavaScript, HTML, CSS</h3>

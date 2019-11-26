@@ -17,7 +17,7 @@ const ContactMe = () => {
             <br></br>
             <FontAwesomeIcon className={styles.PhoneIcon} icon={faPhoneSquare} /> <p> Phone: 971-322-4233</p>
             <br></br>
-            <a target="blank" href="https://github.com/alexjonspencer1/portfolio-site/blob/master/src/assets/AlexSpencerResume.pdf"><FontAwesomeIcon icon={faFile} /></a> <p className={styles.DocumentText}>Check out my resume!</p>
+            <a target="blank" href="https://drive.google.com/file/d/1s9OBBjaqwJKKGX80FCh4o_msyffqKbXv/view"><FontAwesomeIcon icon={faFile} /></a> <p className={styles.DocumentText}>Check out my resume!</p>
           </div>
           <div className={styles.SocialIconsContainer}>
             <a className={styles.SocialIcon} target="blank" href="https://github.com/alexjonspencer1"><FontAwesomeIcon icon={faGithub} /></a>
