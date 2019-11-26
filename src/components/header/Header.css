@@ -22,7 +22,7 @@
 
   h2 {
     margin: -5px 0px 0px 0px;
-    color: #a6ed8e;
+    color: #BE5504;
     font-family: 'Oswald', sans-serif;    
     animation-name: h2;
     animation-duration: 1s;
@@ -60,7 +60,7 @@
   }
   
   a:hover {
-    color: #a6ed8e;
+    color: #BE5504;
   }
 
   .phoneImage {
@@ -82,7 +82,7 @@
 
   .phoneImage:hover {
 
-    color: #a6ed8e;
+    color: #BE5504;
 
     p {
       color: #456173;

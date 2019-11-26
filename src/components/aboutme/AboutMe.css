@@ -36,6 +36,11 @@
   border: 2px solid #456173cc;
   padding: 5px 30px 5px 30px;
   margin-left: 30px;
+
+  span {
+    color: #BE5504;
+    font-weight: bolder;
+  }
 }
 
 .AboutMeHeader {
@@ -43,5 +48,23 @@
   font-family: 'Oswald', sans-serif;
   font-size: 4em;
   text-transform: uppercase;
-  color: #a6ed8e;
+  color: #BE5504;
+}
+
+@media only screen and (min-width: 1650px) {
+  .AboutMe {
+    width: 75vw;
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  .AboutMe {
+    width: 76vw;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .AboutMe {
+    width: 78vw;
+  }
 }
