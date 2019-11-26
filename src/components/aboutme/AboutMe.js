@@ -2,6 +2,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSmile } from '@fortawesome/free-regular-svg-icons';
+import alexpic from '../../assets/alex-pic.jpg';
 import styles from './AboutMe.css';
 
 const AboutMe = () => {
@@ -10,7 +11,7 @@ const AboutMe = () => {
       <h1 className={styles.AboutMeHeader}>About Me //</h1>
       <div className={styles.AboutMe}>
         <div className={styles.AboutMeFlex}>
-          <img src="https://github.com/alexjonspencer1/portfolio-site/blob/master/src/assets/alex-pic.jpg?raw=true" />
+          <img src={alexpic} />
         </div>
         <div className={styles.AboutMeParagraph}>
           <p>
