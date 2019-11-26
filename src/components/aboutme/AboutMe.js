@@ -10,7 +10,7 @@ const AboutMe = () => {
       <h1 className={styles.AboutMeHeader}>About Me //</h1>
       <div className={styles.AboutMe}>
         <div className={styles.AboutMeFlex}>
-          <img src="src/assets/alex-pic.png" />
+          <img src="src/assets/alex-pic.jpg" />
         </div>
         <div className={styles.AboutMeParagraph}>
           <p>
