@@ -16,7 +16,7 @@ const Projects = () => {
         </div>
       </div>
       <div className={styles.ProjectDetails}>
-        <img src="src/assets/heartbot-bb.png" />
+        <img src="src/assets/heartbot-bb.jpg" />
         <div>
           <h2>Tech Stack</h2>
           <h3> <FontAwesomeIcon icon={faAngleDoubleRight} /> Node.js, Express, MongoDB, mongoose</h3>
@@ -39,7 +39,7 @@ const Projects = () => {
         </div>
       </div>
       <div className={styles.ProjectDetails}>
-        <img src="src/assets/tone-check.png" />
+        <img src="src/assets/tone-check.jpg" />
         <div>
           <h2>Tech Stack</h2>
           <h3> <FontAwesomeIcon icon={faAngleDoubleRight} /> Node.js, Express, PostgreSQL</h3>
@@ -63,7 +63,7 @@ const Projects = () => {
         </div>
       </div>
       <div className={styles.ProjectDetails}>
-        <img src="src/assets/deja-brew.png" />
+        <img src="src/assets/deja-brew.jpg" />
         <div>
           <h2>Tech Stack</h2>
           <h3> <FontAwesomeIcon icon={faAngleDoubleRight} /> JavaScript, HTML, CSS</h3>
