@@ -81,3 +81,59 @@
     border: 2px solid #456173;
   }
 }
+
+@media only screen and (max-width: 415px) {
+  .ProjectsHeader {
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .ProjectHeaderInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+
+    h2 {
+      margin: 0px;
+      margin-top: 15px;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+  }
+
+  .ProjectDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+
+    img {
+      height: auto;
+      width: 320px;
+    }
+
+    p {
+      margin: 0px 15px 0px 15px;
+      padding: 10px 10px;
+      width: auto;
+      font-size: 1em;
+      text-align: center;
+    }
+
+    h2 {
+      margin: 0 auto;
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    h3 {
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+}

@@ -68,3 +68,27 @@
     width: 78vw;
   }
 }
+
+@media only screen and (max-width: 415px) {
+  .AboutMeHeader {
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 3em;
+  }
+
+  .AboutMe {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      margin-top: 15px;
+      height: 200px;
+      width: 200px;
+    }
+  }
+
+  .AboutMeParagraph {
+    margin: 0px 0px;
+  }
+}
