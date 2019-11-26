@@ -89,3 +89,22 @@
     }
   }
 }
+
+@media only screen and (max-width: 415px) {
+  .Header {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      font-size: 3em;
+      padding: 5px;
+    }
+  }
+  .flexTitle {
+    margin: 0px;
+  }
+  .flexLogos {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+}

@@ -89,3 +89,12 @@
     width: 78vw;
   }
 }
+
+@media only screen and (max-width: 415px) {
+  .TechStackHeader {
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 3em;
+  }
+}

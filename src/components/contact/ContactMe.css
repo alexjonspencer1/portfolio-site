@@ -97,3 +97,38 @@
     width: 73vw;
   }
 }
+
+@media only screen and (max-width: 415px) {
+  .ContactMeHeader {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3em;
+  }
+
+  .ContactDiv {
+    margin-bottom: 30px;
+    
+    h2 {
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+
+  .ContactDivFlex {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+
+    div {
+      margin: 0px;
+    }
+
+    p {
+      font-size: 1em;
+    }
+  }
+
+  .SocialIconsContainer {
+    display: flex;
+  }
+}
