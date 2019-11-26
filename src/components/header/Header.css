@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+/* Inspiration from https://leaverou.github.io/css3patterns/#weave} */
+.Header {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background:
+  linear-gradient(135deg, white 21px, #456173 22px, #456173 24px, transparent 24px, transparent 80px, #456173 67px, #456173 69px, transparent 69px),
+  linear-gradient(225deg, white 21px, #456173 22px, #456173 24px, transparent 24px, transparent 80px, #456173 67px, #456173 69px, transparent 69px)0 64px;
+  background-color: white;
+  background-size: 80px 130px;  
+  border: 1px solid #456173;
+
+  h1 {
+    margin: 0px 0px;
+    color: #456173;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5em;
+  }
+
+  h2 {
+    margin: -5px 0px 0px 0px;
+    color: #a6ed8e;
+    font-family: 'Oswald', sans-serif;    
+    animation-name: h2;
+    animation-duration: 1s;
+  }
+
+  @keyframes h2 {
+    0%      {transform: translateX(-1000%);}
+    100%    {transform: translateX(0);}
+  }
+}
+
+.flexTitle {
+  background: white;
+  margin: 25px 0px 25px 0px;
+  padding: 15px 15px;
+}
+
+.flexLogos {
+
+  padding: 25px;
+  border-radius: 10px;
+  background-color: white;
+  animation-name: headerLogos;
+  animation-duration: 1s;
+
+  @keyframes headerLogos {
+    0%      {transform: translateX(1000%);}
+    100%    {transform: translateX(0);}
+  }
+
+  a {
+    font-size: 2em;
+    margin: 0px 4px 0px 4px;
+    color: #456173;
+  }
+  
+  a:hover {
+    color: #a6ed8e;
+  }
+
+  .phoneImage {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 4px 0px 4px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    color: #456173;
+
+    p {
+      display: inline;
+      margin: 0px;
+      font-size: .63em;
+    }
+  }
+
+  .phoneImage:hover {
+
+    color: #a6ed8e;
+
+    p {
+      color: #456173;
+    }
+  }
+}

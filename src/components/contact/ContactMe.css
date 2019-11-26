@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.ContactMeHeader {
+
+  margin: 50px 0px 20px 210px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 4em;
+  text-transform: uppercase;
+  color: #a6ed8e;
+
+}
+
+.ContactDiv {
+
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  padding: 40px;
+  width: 65vw;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  background-color: #456173;
+  border-radius: 10px;
+
+  .DocumentText {
+    margin-left: 14px;
+  }
+
+  .SocialIcon {
+    font-size: 4em;
+    margin: 0px 5px 0px 5px;
+  }
+
+  .SocialIcon:hover {
+    color: #a6ed8e;
+  }
+
+  a {
+    color: white;
+    font-size: 1.5em;
+  }
+
+  a:hover {
+    color: #a6ed8e;
+  }
+
+  p {
+    margin: 0px 0px 0px 10px;
+    display: inline;
+    font-size: 1.5em;
+  }
+
+  h2 {
+    margin: 0px 0px 10px 50px;
+    font-size: 2em;
+    color: #a6ed8e;
+    text-transform: uppercase;
+  }
+
+  div {
+    margin-left: 40px;
+  }
+}
+.PhoneIcon {
+  font-size: 1.6em;
+}
+
+.ContactDivFlex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.SocialIconsContainer {
+  margin-right: 100px;
+}
+
