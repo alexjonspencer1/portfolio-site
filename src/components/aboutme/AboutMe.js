@@ -10,7 +10,7 @@ const AboutMe = () => {
       <h1 className={styles.AboutMeHeader}>About Me //</h1>
       <div className={styles.AboutMe}>
         <div className={styles.AboutMeFlex}>
-          <img src="src/assets/alex-pic.jpg" />
+          <img src="https://github.com/alexjonspencer1/portfolio-site/blob/master/src/assets/alex-pic.jpg?raw=true" />
         </div>
         <div className={styles.AboutMeParagraph}>
           <p>
