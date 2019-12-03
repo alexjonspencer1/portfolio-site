@@ -28,6 +28,7 @@ module.exports = {
       },
       {
         test: /.css$/,
+        exclude: /node_modules/,
         use: [
           {
             loader: 'style-loader'
@@ -51,6 +52,11 @@ module.exports = {
             }
           }
         ]
+      },
+      {
+        test: /\.css$/,
+        include: /node_modules/,
+        use: ['style-loader', 'css-loader']
       },
       {
         test: /.(jpeg|jpg|png|svg|pdf)$/,

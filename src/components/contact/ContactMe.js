@@ -7,7 +7,7 @@ import { faEnvelope, faPhoneSquare, faFile } from '@fortawesome/free-solid-svg-i
 
 const ContactMe = () => {
   return (
-    <>
+    <div data-aos="fade">
       <h1 className={styles.ContactMeHeader}>Contact Me //</h1>
       <div className={styles.ContactDiv}>
         <h2>Let's get in touch!</h2>
@@ -26,7 +26,7 @@ const ContactMe = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
