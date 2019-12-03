@@ -9,8 +9,8 @@ import styles from './Projects.css';
 const Projects = () => {
   return (
     <>
-      <h1 className={styles.ProjectsHeader}>My Work //</h1>
-      <div className={styles.ProjectHeaderInformation}>
+      <h1 data-aos="fade" className={styles.ProjectsHeader}>My Work //</h1>
+      <div data-aos="slide-right" className={styles.ProjectHeaderInformation}>
         <h2>@HEARTBOTBB</h2>
         <div className={styles.ProjectHeaderFlex}>
           <a target="blank" href="https://heartbotbb.herokuapp.com/"><p>Deployed Site</p></a>
@@ -33,7 +33,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className={styles.ProjectHeaderInformation}>
+      <div data-aos="slide-right" className={styles.ProjectHeaderInformation}>
         <h2>TONE CHECK</h2>
         <div className={styles.ProjectHeaderFlex}>
           <a target="blank" href="http://tone-check.herokuapp.com/"><p>Deployed Site</p></a>
@@ -57,7 +57,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className={styles.ProjectHeaderInformation}>
+      <div data-aos="slide-right" className={styles.ProjectHeaderInformation}>
         <h2>DEJA BREW</h2>
         <div className={styles.ProjectHeaderFlex}>
           <a target="blank" href="https://team-caffeine.github.io/"><p>Deployed Site</p></a>
