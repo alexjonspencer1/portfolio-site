@@ -82,19 +82,28 @@
 
 @media only screen and (min-width: 1650px) {
   .ContactDiv {
-    width: 70vw;
+    width: 63vw;
+  }
+  .ContactMeHeader {
+    margin-left: 260px;
   }
 }
 
 @media only screen and (min-width: 1750px) {
   .ContactDiv {
-    width: 71vw;
+    width: 63vw;
+  }
+  .ContactMeHeader {
+    margin-left: 280px;
   }
 }
 
 @media only screen and (min-width: 1900px) {
   .ContactDiv {
-    width: 73vw;
+    width: 63vw;
+  }
+  .ContactMeHeader {
+    margin-left: 310px;
   }
 }
 

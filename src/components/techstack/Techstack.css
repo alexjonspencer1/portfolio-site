@@ -68,25 +68,43 @@
 
 @media only screen and (min-width: 1500px) {
   .TechstackUL {
-    width: 72vw;
+    width: 67vw;
+  }
+  .TechStackHeader {
+    margin-left: 260px;
   }
 }
 
 @media only screen and (min-width: 1650px) {
   .TechstackUL {
-    width: 75vw;
+    width: 68vw;
+  }
+}
+  
+@media only screen and (min-width: 1700px) {
+  .TechstackUL {
+    width: 68vw;
+  }
+  .TechStackHeader {
+    margin-left: 280px;
   }
 }
 
 @media only screen and (min-width: 1750px) {
   .TechstackUL {
-    width: 76vw;
+    width: 67vw;
+  }
+  .TechStackHeader {
+    margin-left: 290px;
   }
 }
 
 @media only screen and (min-width: 1900px) {
   .TechstackUL {
-    width: 78vw;
+    width: 67vw;
+  }
+  .TechStackHeader {
+    margin-left: 320px;
   }
 }
 

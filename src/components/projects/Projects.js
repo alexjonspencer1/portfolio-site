@@ -18,7 +18,7 @@ const Projects = () => {
           <a target="blank" href="https://github.com/Healing-HeartBot/healing-heart-bot"><p>GitHub Repository</p></a>
         </div>
       </div>
-      <div className={styles.ProjectDetails}>
+      <div data-aos="fade" className={styles.ProjectDetails}>
         <img src={heartbot} />
         <div>
           <h2>Tech Stack</h2>
@@ -41,7 +41,7 @@ const Projects = () => {
           <a target="blank" href="https://github.com/mood-mangoes/mood-mangoes.github.io"><p>GitHub Repository</p></a>
         </div>
       </div>
-      <div className={styles.ProjectDetails}>
+      <div data-aos="fade" className={styles.ProjectDetails}>
         <img src={tonecheck} />
         <div>
           <h2>Tech Stack</h2>
@@ -65,7 +65,7 @@ const Projects = () => {
           <a target="blank" href="https://github.com/team-caffeine/team-caffeine.github.io"><p>GitHub Repository</p></a>
         </div>
       </div>
-      <div className={styles.ProjectDetails}>
+      <div data-aos="fade" className={styles.ProjectDetails}>
         <img src={dejabrew} />
         <div>
           <h2>Tech Stack</h2>

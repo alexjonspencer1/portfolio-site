@@ -53,19 +53,43 @@
 
 @media only screen and (min-width: 1650px) {
   .AboutMe {
-    width: 75vw;
+    width: 70vw;
+  }
+  .AboutMeHeader {
+    margin-left: 260px;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .AboutMe {
+    width: 67vw;
+  }
+  .AboutMeHeader {
+    margin-left: 280px;
   }
 }
 
 @media only screen and (min-width: 1750px) {
   .AboutMe {
-    width: 76vw;
+    width: 67vw;
+  }
+  .AboutMeHeader {
+    margin-left: 290px;
+  }
+}
+
+@media only screen and (min-width: 1850px) {
+  .AboutMe {
+    width: 67vw;
+  }
+  .AboutMeHeader {
+    margin-left: 320px;
   }
 }
 
 @media only screen and (min-width: 1900px) {
   .AboutMe {
-    width: 78vw;
+    width: 67vw;
   }
 }
 
