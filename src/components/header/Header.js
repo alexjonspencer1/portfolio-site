@@ -5,7 +5,7 @@ import { faEnvelope, faPhoneSquare } from '@fortawesome/free-solid-svg-icons';
 import styles from './Header.css';
 
 const Header = () => (
-  <header className={styles.Header}>
+  <header data-aos="fade" className={styles.Header}>
     <div className={styles.flexTitle}>
       <h1>Alex Spencer</h1>
       <h2> Full Stack Software Developer</h2>

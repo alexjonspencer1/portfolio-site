@@ -139,3 +139,63 @@
     }
   }
 }
+
+@media only screen and (min-width: 1650px) {
+  .ProjectsHeader {
+    margin-left: 260px;
+  }
+  .ProjectHeaderInformation {
+    margin-left: 260px;
+  }
+  .ProjectDetails {
+    margin-left: 260px;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .ProjectsHeader {
+    margin-left: 280px;
+  }
+  .ProjectHeaderInformation {
+    margin-left: 280px;
+  }
+  .ProjectDetails {
+    margin-left: 280px;
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  .ProjectsHeader {
+    margin-left: 280px;
+  }
+  .ProjectHeaderInformation {
+    margin-left: 280px;
+  }
+  .ProjectDetails {
+    margin-left: 280px;
+  }
+}
+
+@media only screen and (min-width: 1850px) {
+  .ProjectsHeader {
+    margin-left: 320px;
+  }
+  .ProjectHeaderInformation {
+    margin-left: 320px;
+  }
+  .ProjectDetails {
+    margin-left: 320px;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .ProjectsHeader {
+    margin-left: 320px;
+  }
+  .ProjectHeaderInformation {
+    margin-left: 320px;
+  }
+  .ProjectDetails {
+    margin-left: 320px;
+  }
+}
