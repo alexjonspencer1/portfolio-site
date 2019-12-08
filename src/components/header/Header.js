@@ -17,7 +17,7 @@ const Header = () => (
       <a target="blank" href="https://twitter.com/alexjonspencer"><FontAwesomeIcon icon={faTwitter} /></a>
       <div className={styles.phoneImage}>
         <FontAwesomeIcon icon={faPhoneSquare} />
-        <p>971-322-4233</p>
+        <p>(971) 322-4233</p>
       </div>
     </div>
   </header>

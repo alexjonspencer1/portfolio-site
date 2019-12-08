@@ -20,7 +20,7 @@ const Projects = () => {
       </div>
       <div data-aos="fade" className={styles.ProjectDetails}>
         <img src={heartbot} />
-        <div>
+        <div data-aos="slide-left">
           <h2>Tech Stack</h2>
           <h3> <FontAwesomeIcon icon={faAngleDoubleRight} /> Node.js, Express, MongoDB, mongoose</h3>
           <p>
@@ -43,7 +43,7 @@ const Projects = () => {
       </div>
       <div data-aos="fade" className={styles.ProjectDetails}>
         <img src={tonecheck} />
-        <div>
+        <div data-aos="slide-left">
           <h2>Tech Stack</h2>
           <h3> <FontAwesomeIcon icon={faAngleDoubleRight} /> Node.js, Express, PostgreSQL</h3>
           <p>
@@ -67,7 +67,7 @@ const Projects = () => {
       </div>
       <div data-aos="fade" className={styles.ProjectDetails}>
         <img src={dejabrew} />
-        <div>
+        <div data-aos="slide-left">
           <h2>Tech Stack</h2>
           <h3> <FontAwesomeIcon icon={faAngleDoubleRight} /> JavaScript, HTML, CSS</h3>
           <p>

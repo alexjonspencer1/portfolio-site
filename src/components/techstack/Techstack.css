@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400&display=swap');
 
 .FlexSkillsSection {
   display: flex;
@@ -10,10 +10,11 @@
 
   width: 71vw;
   margin: 0px;
+  margin-top: 30px;
   display: grid;
   grid-gap: 15px;
   padding: 10px 10px 0px 10px;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   list-style: none;
 
   li {
@@ -22,6 +23,8 @@
       padding: 3px 3px;
       margin: 0px 0px 0px 10px;
       color: #456173;
+      font-weight: 300;
+      font-size: 1.1em;
     }
 
     h2 {
@@ -31,19 +34,15 @@
       background-color: #456173cc;
       padding: 10px 10px;
       margin: 0px;
-      font-size: 1.1em;
-      text-transform: uppercase;
+      font-size: 1.2em;
     }
 
     justify-content: center;
     font-family: 'Oswald', sans-serif;
     margin: 5px 5px 5px 5px;
     transition: 50ms ease-in-out;
+    background-color: white;
 
-  }
-
-  li:hover {
-    transform: translate3d(-2px, -2px, 0);
   }
 }
 
@@ -59,11 +58,10 @@
 .TechStackHeader {
   font-family: 'Oswald', sans-serif;
   margin-bottom: 20px;
-  margin-top: 80px;
-  text-transform: uppercase;
+  margin-top: 100px;
   color: #BE5504;
   font-size: 4em;
-  margin-left: 210px;
+  margin-left: 220px;
 }
 
 @media only screen and (min-width: 1500px) {
